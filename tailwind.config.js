@@ -1,26 +1,15 @@
 / @type {import('tailwindcss').Config} */
-export default {
-   content: ["./src//*.{html,js}"],
-   theme: {
-     extend: {},
-     screens: {
-<<<<<<< HEAD
-=======
+ export default { 
+  content: ["./src//*.{html,js}"],
+  theme: {
+    extend: {},
+    screens: {
+ 
+      'xs': '0px',
+      'md': '510px',
+      'lg': '1280px',
 
->>>>>>> 4d291ed645698267df31f19ce8d6f0094b3d5a5d
-      'xs': '0px',   // Phones
-      'md': '510px',   // ipad
-      'lg': '1280px',  // Desktops
-
-<<<<<<< HEAD
-     },
   },
-   plugins: [],
+  },
+  plugins: [],
 }
-=======
-  },
-   },
-   plugins: [],
- }
->>>>>>> 4d291ed645698267df31f19ce8d6f0094b3d5a5d
-
